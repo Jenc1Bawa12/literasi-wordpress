@@ -1,0 +1,172 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "PINK SCHEME",
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#FF6BAE",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#F755F4",
+          "name": "Secondary"
+        },
+        {
+          "slug": "primary-shade-one",
+          "color": "#902757",
+          "name": "Primary Shade 1"
+        },
+        {
+          "slug": "primary-shade-2",
+          "color": "#3A1827",
+          "name": "Primary Shade 2"
+        },
+        {
+          "slug": "secondary-shade-1",
+          "color": "#632C45",
+          "name": "Secodnary Shade 1"
+        },
+        {
+          "slug": "secondary-shade-2",
+          "color": "#8C2C57",
+          "name": "Secodnary Shade 2"
+        },
+        {
+          "slug": "light-color",
+          "color": "#FFFFFE",
+          "name": "Light Color"
+        },
+        {
+          "slug": "black-color",
+          "color": "#101010",
+          "name": "Black Color"
+        },
+        {
+          "slug": "dark-shade",
+          "color": "#2C1B23",
+          "name": "Dark Shade"
+        },
+
+        {
+          "slug": "heading-color",
+          "color": "#FFFFFD",
+          "name": "Heading Color"
+        },
+        {
+          "slug": "background",
+          "color": "#130109",
+          "name": "Background"
+        },
+        {
+          "slug": "background-alt",
+          "color": "#16090F",
+          "name": "Background Alt"
+        },
+        {
+          "slug": "foreground",
+          "color": "#FBF5F5",
+          "name": "Foreground"
+        },
+        {
+          "slug": "foreground-alt",
+          "color": "#EDE5E5",
+          "name": "Foreground Alternative"
+        },
+        {
+          "slug": "meta-color",
+          "color": "#C2C2C2",
+          "name": "Meta Color"
+        },
+        {
+          "slug": "border-color",
+          "color": "#3F1C2C",
+          "name": "Border Color"
+        },
+        {
+          "slug": "sticky-bg-color",
+          "color": "#000000eb",
+          "name": "Sticky Background Color"
+        },
+        {
+          "color": "#ffffff00",
+          "name": "Transparent",
+          "slug": "transparent"
+        }
+      ],
+      "duotone": [
+        {
+          "colors": ["#FF6BAE", "#ffffff"],
+          "slug": "primary-secondary",
+          "name": "Duo 1"
+        },
+        {
+          "colors": ["#F755F4", "#FF6BAE"],
+          "slug": "secondary-primary",
+          "name": "Duo 2"
+        },
+        {
+          "colors": ["#FF6BAE", "#000000"],
+          "slug": "primary-dark",
+          "name": "Duo 3"
+        },
+        {
+          "colors": ["#000000", "#FF6BAE"],
+          "slug": "dark-primary",
+          "name": "Duo 4"
+        },
+        {
+          "colors": ["#FF6BAE", "#ffffff"],
+          "slug": "primary-light",
+          "name": "Duo 5"
+        },
+        {
+          "colors": ["#ffffff", "#FF6BAE"],
+          "slug": "light-primary",
+          "name": "Duo 6"
+        },
+        {
+          "colors": ["#F755F4", "#000000"],
+          "slug": "secondary-dark",
+          "name": "Duo 7"
+        },
+        {
+          "colors": ["#000000", "#F755F4"],
+          "slug": "dark-secondary",
+          "name": "Duo 8"
+        },
+        {
+          "colors": ["#F755F4", "#ffffff"],
+          "slug": "secondary-light",
+          "name": "Duo 9"
+        },
+        {
+          "colors": ["#ffffff", "#F755F4"],
+          "slug": "light-secondary",
+          "name": "Duo 10"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "elements": {
+      "h1": { "typography": { "fontWeight": "600" } },
+      "h2": { "typography": { "fontWeight": "600" } },
+      "h3": { "typography": { "fontWeight": "600" } },
+      "h4": { "typography": { "fontWeight": "600" } },
+      "h5": { "typography": { "fontWeight": "500" } },
+      "h6": { "typography": { "fontWeight": "500" } },
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--syne)"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--inter)"
+    }
+  }
+}
